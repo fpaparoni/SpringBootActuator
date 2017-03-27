@@ -1,0 +1,14 @@
+management:
+  security:
+    enabled: false
+    
+endpoints:
+  shutdown:
+    enabled: true
+    
+spring:
+  metrics:
+    export:
+      redis:
+        prefix: javastaff.actuator.test.${random.value:0000}
+        key: keys.javastaff.actuator

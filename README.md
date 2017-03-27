@@ -1,1 +1,1 @@
-# SpringBootActuator
+Progetto d'esempio dell'articolo "Metriche con Spring Boot Actuator"
